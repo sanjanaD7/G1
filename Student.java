@@ -14,7 +14,7 @@ public class Student {
     public void displayName() {
         System.out.println("Name: " + name);
     }
-
+    
     public void displayAge() {
         Date currentDate = new Date();
         long diff = currentDate.getTime() - dob.getTime();
